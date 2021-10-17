@@ -10,10 +10,10 @@ Page Objects-based GUI tests using the [Webdriver.io](http://webdriver.io) frame
 There are two test files and two run each one of them execute the following commands
 
 ### To Run Storefront Test cases
-npx wdio run ./wdio.conf.js --spec testStorefront.js
+npx wdio run ./wdio.conf.js --spec test\testStorefront.js
 
 ### To Run Sidebar Test cases
-npx wdio run ./wdio.conf.js --spec testSidebar.js
+npx wdio run ./wdio.conf.js --spec test\testSidebar.js
 
 ### To Run the All test cases 
 npx wdio run ./wdio.conf.js
