@@ -19,8 +19,9 @@ npx wdio run ./wdio.conf.js --spec test/testSidebar.js
 npx wdio run ./wdio.conf.js
 
 ## Allure Reports
-### Generate Allure Reports
-Execute 'allure generate allure-results --clean' in your project repo
+Execute the following commands
+### To Generate Allure Reports
+allure generate allure-results --clean
 
-### Open Allure Report
-Execute 'allure open' in your project repo
+### To Open Allure Report
+allure open
