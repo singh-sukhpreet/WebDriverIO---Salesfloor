@@ -20,6 +20,7 @@ describe('Sidebar Test Cases', () => {
         pageFrame.makePersonalShopperRequest();
         expect(pageFrame.frameThankYouText).toHaveTextContaining(ResourceInput.thankYouText);
         browser.switchToFrame(null);
+        browser.takeScreenshot();
     });
 
     after(() => {
