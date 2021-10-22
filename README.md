@@ -20,6 +20,9 @@ npx wdio run ./wdio.conf.js
 
 ## Allure Reports
 Execute the following commands
+### To Install Allure
+brew install allure
+
 ### To Generate Allure Reports
 allure generate allure-results --clean
 
