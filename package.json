@@ -18,7 +18,7 @@
     "@wdio/spec-reporter": "^7.14.1",
     "@wdio/sync": "7.14.1",
     "chai": "^4.3.4",
-    "chromedriver": "^94.0.0",
+    "chromedriver": "^87.0.4",
     "wdio-chromedriver-service": "^7.2.2",
     "wdio-docker-service": "^3.1.4"
   }
