@@ -114,7 +114,8 @@ exports.config = {
     // commands. Instead, they hook themselves up into the test process.
     services: [
         ['chromedriver'],
-        ['docker', {}]
+        ['docker', {}],
+        ['selenium-standalone', { drivers: { firefox: '0.29.1', chrome: true, chromiumedge: 'latest' } }]
     ],
     
     // Framework you want to run your specs with.
