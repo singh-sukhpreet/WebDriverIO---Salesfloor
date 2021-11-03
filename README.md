@@ -19,11 +19,12 @@ npx wdio run ./wdio.conf.js --spec test/testSidebar.js
 npx wdio run ./wdio.conf.js
 
 ## To Run tests through docker image 
-1. Uncomment the following line from wdio.conf.js file ( // args: ['--no-sandbox', '--disable-dev-shm-usage', '--headless'] )
-2. docker pull sukhpreetsingh/wdio:1.0
-3. docker container run -it sukhpreetsingh/wdio:1.0 bash
-4. Execute (npx wdio run ./wdio.conf.js --spec test/testStorefront.js) to run storefront test cases
-5. Execute (npx wdio run ./wdio.conf.js --spec test/testSidebar.js) to run sidebar test cases
+1. Uncomment the following line from wdio.conf.js file 
+   ( // args: ['--no-sandbox', '--disable-dev-shm-usage', '--headless'] )
+3. docker pull sukhpreetsingh/wdio:1.0
+4. docker container run -it sukhpreetsingh/wdio:1.0 bash
+5. Execute (npx wdio run ./wdio.conf.js --spec test/testStorefront.js) to run storefront test cases
+6. Execute (npx wdio run ./wdio.conf.js --spec test/testSidebar.js) to run sidebar test cases
  
 ## Allure Reports
 Execute the following commands
