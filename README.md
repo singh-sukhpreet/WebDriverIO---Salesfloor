@@ -7,7 +7,7 @@ Page Objects-based GUI tests using the [Webdriver.io](http://webdriver.io) frame
 3. Go to the project folder and install dependencies by executing `npm install` terminal
 
 ## Running tests
-There are two test files and two run each one of them execute the following commands
+Execute the following commands
 
 ### To Run Storefront Test cases
 npx wdio run ./wdio.conf.js --spec test/testStorefront.js
