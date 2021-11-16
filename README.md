@@ -4,7 +4,7 @@ Page Objects-based GUI tests using the [Webdriver.io](http://webdriver.io) frame
 ## Getting started
 1. Install the LTS version of [Node.js](https://nodejs.org)
 2. Clone the repo
-3. Inside the project folder, do `npm install`
+3. Go to the project folder and install dependencies by executing `npm install` terminal
 
 ## Running tests
 There are two test files and two run each one of them execute the following commands
