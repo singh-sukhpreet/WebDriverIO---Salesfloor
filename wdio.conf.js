@@ -63,6 +63,7 @@ exports.config = {
         'goog:chromeOptions': {
             // uncomment to run it on jenkins and docker
             // args: ['--no-sandbox', '--disable-dev-shm-usage', '--headless']
+            args: ['--start-maximized']
         }
         // If outputDir is provided WebdriverIO can capture driver session logs
         // it is possible to configure which logTypes to include/exclude.
@@ -87,10 +88,9 @@ exports.config = {
     // - @wdio/sumologic-reporter
     // - @wdio/cli, @wdio/config, @wdio/utils
     // Level of logging verbosity: trace | debug | info | warn | error | silent
-    // logLevels: {
-    //     webdriver: 'info',
-    //     '@wdio/appium-service': 'info'
-    // },
+    logLevels: {
+        webdriver: 'silent',
+    },
     //
     // If you only want to run your tests until a specific amount of tests have failed use
     // bail (default is 0 - don't bail, run all tests).
@@ -138,10 +138,10 @@ exports.config = {
     // Test reporter for stdout.
     // The only one supported by default is 'dot'
     // see also: https://webdriver.io/docs/dot-reporter
-    reporters: ['spec'],
+    
 
 
-    reporters: [['allure', {
+    reporters: ['spec',['allure', {
         outputDir: 'allure-results',
         disableWebdriverScreenshotsReporting: false,
     }]],
